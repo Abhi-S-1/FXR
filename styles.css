@@ -137,7 +137,7 @@ body {
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   .firstName {
     width: 100%;
     margin-left: 0;
@@ -161,7 +161,7 @@ body {
   }
 }
 
-@media screen and (min-width: 451px) {
+@media screen and (min-width: 501px) {
   .banner {
     height: 350px;
   }
