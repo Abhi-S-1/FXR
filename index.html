@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FXR Racing</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="firstHalf">
+        <div class="firstName">Alex</div>
+        <div>
+            <img src="banner_medium.png" alt="banner photo" class="banner" 
+            srcset="banner_large.png 1400w, banner_medium.png 700w, banner_small.png 450w, " 
+            sizes="(min-width: 1400px) 1400px, 700px"
+            </img>
+        </div>
+      </div>
+      <div class="secondHalf">
+        <div class="lastName" id="modal-trigger" data-modal="modal-name">Setia</div>
+      </div>
+    </div>
+<div class="modal" id="modal-name">
+  <div class="modal-sandbox"></div>
+  <div class="modal-box">
+    <div class="modal-header">
+      <div class="close-modal">&#10006;</div> 
+      <h1>Alex Setia</h1>
+    </div>
+    <div class="modal-body">
+      <p>lorem ipsum one. More text afterwards.</p>
+      <p>this is not just a sentence. This is a full paragraph.</p>
+      <br />
+    </div>
+  </div>
+</div>
+  </body>
+</html>
